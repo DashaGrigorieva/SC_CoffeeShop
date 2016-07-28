@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CoffeeShop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CoffeeShop_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CoffeeShop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CoffeeShop" />
+          <element id="library" level="project" name="apache-tomcat-8.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.35-bin" />
+          <element id="library" level="project" name="org.hibernate:hibernate-validator:4.2.0.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
